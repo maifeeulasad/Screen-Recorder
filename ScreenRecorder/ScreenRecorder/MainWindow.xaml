@@ -8,6 +8,6 @@
 		ResizeMode="NoResize"
         Title="Screen Recorder-MUA" Height="80" Width="200">
     <Grid>
-		<Button Name="recorderButton" Background="Azure">Start Recording</Button>
+		<Button Name="recorderButton" Background="Azure" Click="RecorderButton_Click">Start Recording</Button>
     </Grid>
 </Window>

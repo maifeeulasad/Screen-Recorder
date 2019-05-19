@@ -20,9 +20,23 @@ namespace ScreenRecorder
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool isRecording = false;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RecorderButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(isRecording==false)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
